@@ -17,8 +17,8 @@
 
   echo "<title>$appname$userstr</title><link rel='stylesheet' " .
        "href='styles.css' type='text/css'>"                     .
-       "</head><body><center><canvas id='logo' width='624' "    .
-       "height='96'>$appname</canvas></center>"             .
+	   "<center><IMG src=\"world.jpg\"></center>"				.
+       "</head><body>"             								.
        "<div class='appname'>$appname$userstr</div>"            .
        "<script src='javascript.js'></script>";
 
