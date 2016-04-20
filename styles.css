@@ -1,5 +1,6 @@
 /* Example 26-13: styles.css */
-
+/*0EE9ED*/
+/* 09B4B8 */
 * {
   font-family:verdana,sans-serif;
   font-size  :14pt;
@@ -8,12 +9,12 @@
 body {
   width     :700px;
   margin    :20px auto;
-  background: #bcf8f6;
+  background: #0EE9ED;
   border    :1px solid #888;
 }
 
 html {
-  background: #87cfe3
+  background: #00B0AD
 }
 
 img {
@@ -25,6 +26,7 @@ img {
 }
 
 li a, .button {
+  text-decoration:none
   text-decoration:none;
 }
 
@@ -34,8 +36,8 @@ li a:hover, .button:hover {
  
 .appname {
   text-align :center;
-  background :#eb8;
-  color      :#40d;
+  background :#2C809C;
+  color      :#19E0DD;
   font-family:helvetica;
   font-size  :20pt;
   padding    :4px;
@@ -88,9 +90,4 @@ li a:hover, .button:hover {
   color     :#006600;
 }
 
-#logo {
-  font-family:Georgia;
-  font-weight:bold;
-  font-style:italic;
-  font-size :97px;
-}
+

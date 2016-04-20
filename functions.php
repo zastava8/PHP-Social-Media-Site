@@ -2,8 +2,8 @@
   $dbhost  = 'localhost';    // Unlikely to require changing
   $dbname  = 'robinsnest';   // Modify these...
   $dbuser  = 'root';   // ...variables according
-  $dbpass  = 'root';   // ...to your installation
-  $appname = "Robin's Nest"; // ...and preference
+  $dbpass  = '';   // ...to your installation
+  $appname = "WeConnect"; // ...and preference
 
   $connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
   if ($connection->connect_error) die($connection->connect_error);
